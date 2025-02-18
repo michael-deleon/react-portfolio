@@ -2,9 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply scroll-smooth;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+@layer base {
+  button {
+    @apply border border-black rounded-xl px-5 py-1;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,7 +25,45 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-white text-gray-900 transition-colors duration-300;
+}
+
+/* Dark Mode */
+.dark body {
+  @apply bg-gray-900 text-white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between; /* Aligns left and right sections */
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adds space between elements */
+}
+
+.social-icons a {
+  margin-right: 20px;
+  font-size: 25px;
+  transition: color 0.3s ease; /* Keep transition */
+}
+
+/* Remove fixed hover color */
+.social-icons a:hover {
+  color: inherit; /* Use Tailwind's hover:text-* instead */
+}
+
+.footer-right {
+  font-size: 15px;
+  color: #666;
+}
+
+/* Ensure Hamburger Menu has higher z-index on mobile */
+.navbar-mobile-menu {
+  z-index: 9999; /* Ensures it stays on top */
 }
