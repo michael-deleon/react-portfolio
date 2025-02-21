@@ -1,5 +1,3 @@
-import "@fortawesome/fontawesome-free/css/all.min.css";
-
 export default function Footer() {
   return (
     <footer className="footer bg-white dark:bg-gray-900 text-gray-900 dark:text-white p-4">

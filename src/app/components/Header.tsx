@@ -1,8 +1,7 @@
 "use client";
-
+import Link from "next/link";
 import { useState, useEffect } from "react";
 import { Menu, X, Sun, Moon } from "lucide-react";
-import Link from "next/link";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,9 +36,12 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo on Left */}
-          <a href="/" className="text-2xl font-bold text-gray-900 dark:text-white">
+          <Link href="/" className="text-2xl font-bold text-gray-900 dark:text-white">
+          <span className="text-[#0077b5]">M</span>ike<span className="text-[#0077b5]">.</span>
+          </Link>
+          {/* <a href="/" className="text-2xl font-bold text-gray-900 dark:text-white">
             <span className="text-[#0077b5]">M</span>ike<span className="text-[#0077b5]">.</span>
-          </a>
+          </a> */}
 
           {/* Right side - Dark Mode Toggle & Navigation */}
           <div className="flex items-center space-x-4">
@@ -53,8 +55,13 @@ const Navbar = () => {
               Read <Link href="/about">this page!</Link>
             </h1> */}
             <div className="hidden md:flex space-x-6">
-              <a href="/about" className="text-gray-900 dark:text-white text-lg hover:text-blue-500 dark:hover:text-blue-500 transition duration-300">About</a>
-              <a href="/MichaelDeLeon_ProductDesign_Resume.pdf" target="_blank" className="text-gray-900 dark:text-white text-lg hover:text-blue-500 dark:hover:text-blue-500 transition duration-300">Resume</a>
+              <Link href="/about" className="text-gray-900 dark:text-white text-lg hover:text-blue-500 dark:hover:text-blue-500 transition duration-300">About
+              </Link>
+              <Link href="/MichaelDeLeon_ProductDesign_Resume.pdf" target="_blank" className="text-gray-900 dark:text-white text-lg hover:text-blue-500 dark:hover:text-blue-500 transition duration-300">Resume
+              </Link>
+
+              {/* <a href="/about" className="text-gray-900 dark:text-white text-lg hover:text-blue-500 dark:hover:text-blue-500 transition duration-300">About</a> */}
+              {/* <a href="/MichaelDeLeon_ProductDesign_Resume.pdf" target="_blank" className="text-gray-900 dark:text-white text-lg hover:text-blue-500 dark:hover:text-blue-500 transition duration-300">Resume</a> */}
             </div>
 
             {/* Mobile Menu Button */}
@@ -68,8 +75,10 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-white dark:bg-gray-900 text-gray-900 dark:text-white p-4 space-y-4">
-          <a href="/about" className="block">About</a>
-          <a href="/MichaelDeLeon_ProductDesign_Resume.pdf" target="_blank" className="block">Resume</a>
+          <Link href="/about" className="block">About</Link>
+          {/* <a href="/about" className="block">About</a> */}
+          {/* <a href="/MichaelDeLeon_ProductDesign_Resume.pdf" target="_blank" className="block">Resume</a> */}
+          <Link href="/MichaelDeLeon_ProductDesign_Resume.pdf" target="_blank" className="block">Resume</Link>
         </div>
       )}
     </nav>

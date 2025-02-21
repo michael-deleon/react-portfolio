@@ -2,7 +2,6 @@ import React from "react";
 import Head from "next/head";
 import Header from "../../components/Header";
 import BackToTopButton from '../../components/BackToTopButton';
-import DemoButtons from "@/app/components/CoinnectDemo";
 import Footer from "../../components/Footer";
 import CoinnectDemo from "@/app/components/CoinnectDemo";
 
