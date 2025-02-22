@@ -183,9 +183,9 @@ const ProjectPage = () => {
       <p className="text-gray-700 dark:text-gray-300 mb-2">
         Investors need frequent updates and communication on their investments with the entrepreneurs they work with.
       </p>
-      <p className="italic text-gray-700 dark:text-gray-300 mb-4">“Information has to be transparent, in real time and communicated often.” - Participant #1</p>
-      <p className="italic text-gray-700 dark:text-gray-300 mb-4">“I want to be kept in the loop.” - Participant #4</p>
-      <p className="italic text-gray-700 dark:text-gray-300 mb-4">“We like to keep in constant communication to not only help them with financial resources, but anything they really need.” - Participant #5</p>
+      <p className="italic text-gray-700 dark:text-gray-300 mb-4">&quot;Information has to be transparent, in real time and communicated often.&quot; - Participant #1</p>
+      <p className="italic text-gray-700 dark:text-gray-300 mb-4">&quot;I want to be kept in the loop.&quot; - Participant #4</p>
+      <p className="italic text-gray-700 dark:text-gray-300 mb-4">&quot;We like to keep in constant communication to not only help them with financial resources, but anything they really need.&quot; - Participant #5</p>
       <p className="text-gray-700 dark:text-gray-300">
         <strong>How might we help investors maintain a high level of communication with the entrepreneurs so they can feel kept in the loop?</strong>
       </p>
@@ -196,9 +196,9 @@ const ProjectPage = () => {
       <p className="text-gray-700 dark:text-gray-300 mb-2">
         Investors typically use their own network to find investing opportunities, not platforms.
       </p>
-      <p className="italic text-gray-700 dark:text-gray-300 mb-4">“I don’t really use any platforms outside of my network.” - Participant #1</p>
-      <p className="italic text-gray-700 dark:text-gray-300 mb-4">“I encourage my clients not to use websites like Kickstarter because they take high percentage fees.” - Participant #3</p>
-      <p className="italic text-gray-700 dark:text-gray-300 mb-4">“Most of the deal flow comes from our network because there is trust and an inside connection.” - Participant #4</p>
+      <p className="italic text-gray-700 dark:text-gray-300 mb-4">&quot;I don&apos;t really use any platforms outside of my network.&quot; - Participant #1</p>
+      <p className="italic text-gray-700 dark:text-gray-300 mb-4">&quot;I encourage my clients not to use websites like Kickstarter because they take high percentage fees.&quot; - Participant #3</p>
+      <p className="italic text-gray-700 dark:text-gray-300 mb-4">&quot;Most of the deal flow comes from our network because there is trust and an inside connection.&quot; - Participant #4</p>
       <p className="text-gray-700 dark:text-gray-300">
         <strong>How might we encourage investors to engage and create deal flow with entrepreneurs digitally?</strong>
       </p>
@@ -209,9 +209,9 @@ const ProjectPage = () => {
       <p className="text-gray-700 dark:text-gray-300 mb-2">
         Investment decisions require a high level of human connection and trust.
       </p>
-      <p className="italic text-gray-700 dark:text-gray-300 mb-4">“I not only look for a good deal, I look for a good team. If we do decide to invest, we will be working with that team for the next several years.” - Participant #2</p>
-      <p className="italic text-gray-700 dark:text-gray-300 mb-4">“I think that relationship building is the key to any job functioning, especially in a nonprofit. I aim to build relationships that are true, genuine, and honest.” - Participant #5</p>
-      <p className="italic text-gray-700 dark:text-gray-300 mb-4">“I look at the people involved. Do I trust them? Do I think they are capable of executing? Are they mission-driven?” - Participant #4</p>
+      <p className="italic text-gray-700 dark:text-gray-300 mb-4">&quot;I not only look for a good deal, I look for a good team. If we do decide to invest, we will be working with that team for the next several years.&quot; - Participant #2</p>
+      <p className="italic text-gray-700 dark:text-gray-300 mb-4">&quot;I think that relationship building is the key to any job functioning, especially in a nonprofit. I aim to build relationships that are true, genuine, and honest.&quot; - Participant #5</p>
+      <p className="italic text-gray-700 dark:text-gray-300 mb-4">&quot;I look at the people involved. Do I trust them? Do I think they are capable of executing? Are they mission-driven?&quot; - Participant #4</p>
       <p className="text-gray-700 dark:text-gray-300">
         <strong>How might we nurture the human connection between the investors and the entrepreneurs using a platform?</strong>
       </p>
@@ -261,7 +261,7 @@ const ProjectPage = () => {
       With a focus on desktop-first design, there were several key challenges to consider:
     </p>
     <ul className="list-disc pl-6 text-lg">
-      <li><strong>Optimizing for Desktop First:</strong> Designing primarily for desktop meant organizing information-rich content into digestible sections, but ensuring it didn't feel too cluttered.</li>
+      <li><strong>Optimizing for Desktop First:</strong> Designing primarily for desktop meant organizing information-rich content into digestible sections, but ensuring it didn&apos;t feel too cluttered.</li>
       <li><strong>Information Overload:</strong> Users required access to a large amount of data for their research, but it was critical not to overwhelm them. We used progressive disclosure techniques and clear visual hierarchy to manage this.</li>
     </ul>
   </section>
@@ -308,7 +308,7 @@ const ProjectPage = () => {
   <section className="mb-8">
     <h3 className="text-2xl font-semibold mb-4">Usability Test 1 Findings</h3>
     <ul className="list-disc pl-6 text-lg mb-4">
-      <li><strong>Navigation needed more clarity:</strong> While users could generally find what they were looking for, some key features, like investor filters, weren’t as intuitive as we’d hoped.</li>
+      <li><strong>Navigation needed more clarity:</strong> While users could generally find what they were looking for, some key features, like investor filters, weren&apos;t as intuitive as we&apos;d hoped.</li>
       <li><strong>Pitch deck previews were a hit:</strong> Participants found the ability to preview pitch decks from within the platform to be highly useful, validating our design choice to prioritize this feature.</li>
       <li><strong>Too much information upfront:</strong> Users found some company profiles overwhelming and suggested streamlining the information presented on initial screens.</li>
     </ul>
@@ -375,13 +375,13 @@ const ProjectPage = () => {
   <section>
     <h3 className="text-2xl font-semibold mb-4">Client Testimonials</h3>
     <blockquote className="italic text-lg mb-4">
-      "We want to implement this immediately... which should be a testament to how good your design is." - Sebastián Martín, Founder & CEO of Cambio Labs
+    &quot;We want to implement this immediately... which should be a testament to how good your design is.&quot; - Sebastián Martín, Founder & CEO of Cambio Labs
     </blockquote>
     <blockquote className="italic text-lg mb-4">
-      "You went above and beyond in the foundational research... approached it with such curiosity." - Michelle Maluwetig, Director of Organizational Development
+    &quot;You went above and beyond in the foundational research... approached it with such curiosity.&quot; - Michelle Maluwetig, Director of Organizational Development
     </blockquote>
     <blockquote className="italic text-lg">
-      "What you’ve presented us is a very well-thought-out deliverable, way beyond our wildest imaginations." - Sarah Zou, Director of Product Development
+    &quot;What you&apos;ve presented us is a very well-thought-out deliverable, way beyond our wildest imaginations.&quot; - Sarah Zou, Director of Product Development
     </blockquote>
   </section>
 </div>

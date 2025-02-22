@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Header from "../../components/Header";
-import BackToTopButton from '../../components/BackToTopButton';
+import BackToTopButton from "../../components/BackToTopButton";
 import Footer from "../../components/Footer";
 import CoinnectDemo from "@/app/components/CoinnectDemo";
 
@@ -62,7 +62,7 @@ const ProjectPage = () => {
   <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mb-6">
     <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">BACKGROUND</h3>
     <p className="text-gray-700 dark:text-gray-300">
-    Many young adults face significant challenges in managing their finances effectively. Whether it’s a lack of financial literacy or difficulty navigating personal budgeting tools, young people often struggle to establish healthy financial habits. The goal of Coinnect was to empower this demographic by providing an intuitive and accessible platform to learn and manage personal finances.    </p>
+    Many young adults face significant challenges in managing their finances effectively. Whether it&apos;s a lack of financial literacy or difficulty navigating personal budgeting tools, young people often struggle to establish healthy financial habits. The goal of Coinnect was to empower this demographic by providing an intuitive and accessible platform to learn and manage personal finances.    </p>
   </div>
 
   {/* Role, Timeline, Tools, Team Size Section */}
@@ -118,7 +118,7 @@ const ProjectPage = () => {
       <strong>Overspending Among Young Adults:</strong> Young adults are more likely to overspend, particularly when using mobile payment systems. A University of Illinois study found that mobile payments increase spending by 23.5%, particularly on non-essential items.
     </li>
     <li className="text-lg text-gray-700 dark:text-gray-300">
-      <strong>Social Finance Pressures:</strong> 30% of app users report being repeatedly asked for small payments by friends or family, contributing to poor financial decision-making. This "Venmo Vultures" phenomenon mirrors the dangers of easy credit use, where users dissociate from the financial impact of these transactions.
+      <strong>Social Finance Pressures:</strong> 30% of app users report being repeatedly asked for small payments by friends or family, contributing to poor financial decision-making. This &quot;Venmo Vultures&quot; phenomenon mirrors the dangers of easy credit use, where users dissociate from the financial impact of these transactions.
     </li>
     <li className="text-lg text-gray-700 dark:text-gray-300">
       <strong>Desire for Social Engagement:</strong> Financial apps that integrate social components—like sharing, tracking progress, or competing with peers—are increasingly popular, especially among younger generations.
@@ -201,7 +201,7 @@ const ProjectPage = () => {
 <div className="mb-8">
   <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Our Design Approach</h3>
   <p className="text-lg text-gray-700 dark:text-gray-300">
-    Our design focused on a mobile-first approach, given the target demographic’s preference for mobile devices. We sketched early wireframes to ensure a smooth, intuitive user experience, emphasizing simplicity and social engagement.
+    Our design focused on a mobile-first approach, given the target demographic&apos;s preference for mobile devices. We sketched early wireframes to ensure a smooth, intuitive user experience, emphasizing simplicity and social engagement.
   </p>
 </div>
 
@@ -228,8 +228,8 @@ const ProjectPage = () => {
 <div className="mb-8">
   <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">What Sets Coinnect Apart</h3>
   <ul className="list-disc pl-5 text-lg text-gray-700 dark:text-gray-300">
-    <li>Optimized User Experience: Coinnect’s interface is designed for simplicity and ease, making financial management less intimidating.</li>
-    <li>Social + Financial: Coinnect isn’t just a finance app—it’s a social platform that fosters community, knowledge-sharing, and responsible behavior.</li>
+    <li>Optimized User Experience: Coinnect&apos;s interface is designed for simplicity and ease, making financial management less intimidating.</li>
+    <li>Social + Financial: Coinnect isn&apos;t just a finance app—it&apos;s a social platform that fosters community, knowledge-sharing, and responsible behavior.</li>
     <li>Social Credit System: Users are rewarded with higher social credit scores for responsible behavior, which opens access to financial perks.</li>
     <li>Personalized Advice: Receive customized advice based on past spending behavior, helping users improve their financial health.</li>
   </ul>
@@ -270,7 +270,7 @@ const ProjectPage = () => {
         </ul>
 
         <p className="text-lg text-gray-700 dark:text-gray-300">
-          Though we didn’t reach the testing phase, these steps would have been crucial to ensuring Coinnect was both functional and engaging for users.
+          Though we didn&apos;t reach the testing phase, these steps would have been crucial to ensuring Coinnect was both functional and engaging for users.
         </p>
       </div>
     </div>

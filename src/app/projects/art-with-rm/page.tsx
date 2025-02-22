@@ -1,9 +1,9 @@
 import React from "react";
 import Head from "next/head";
 import Header from "../../components/Header";
-import BackToTopButton from '../../components/BackToTopButton';
+import BackToTopButton from "../../components/BackToTopButton";
 import Footer from "../../components/Footer";
-import PhotoGrid from '../../components/PhotoGrid';
+import PhotoGrid from "../../components/PhotoGrid";
 
 
 
@@ -11,7 +11,7 @@ const ProjectPage = () => {
   return (
     <>
     <Head>
-      <title>Instagram's Art with RM Filter</title>
+      <title>Art with RM Filter</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
           rel="stylesheet"
@@ -59,10 +59,10 @@ const ProjectPage = () => {
     {/* Overview Text */}
     <div className="md:w-2/3">
       <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
-        The objective of this project was to create a unique, engaging filter that connected BTS fans, specifically RM's fanbase, with the world of art. Leveraging RM's love for art museums and the fine arts, this filter aimed to introduce art to individuals who may not have experienced or appreciated it before. The result was an interactive tool that blended the passion of BTS fandom with fine arts in a fun and accessible way.
+        The objective of this project was to create a unique, engaging filter that connected BTS fans, specifically RM&apos;s fanbase, with the world of art. Leveraging RM&apos;s love for art museums and the fine arts, this filter aimed to introduce art to individuals who may not have experienced or appreciated it before. The result was an interactive tool that blended the passion of BTS fandom with fine arts in a fun and accessible way.
       </p>
       <p className="text-lg text-gray-700 dark:text-gray-300">
-        Many BTS fans, particularly those who admire RM, may not have much exposure to art or feel confident exploring the art world on their own. This lack of exposure can prevent them from fully appreciating the beauty and cultural significance of art. The challenge was to design an engaging filter that would draw attention and inspire BTS followers to explore the art world while staying true to RM’s passions.
+        Many BTS fans, particularly those who admire RM, may not have much exposure to art or feel confident exploring the art world on their own. This lack of exposure can prevent them from fully appreciating the beauty and cultural significance of art. The challenge was to design an engaging filter that would draw attention and inspire BTS followers to explore the art world while staying true to RM&apos;s passions.
       </p>
     </div>
 
@@ -134,7 +134,7 @@ How can we engage BTS fans and encourage them to use and share the RM art filter
       <div className="p-5 border rounded-lg bg-green-200 dark:bg-green-700">
         <h4 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">Filter Option (Chosen Solution)</h4>
         <p className="text-lg text-gray-800 dark:text-gray-300">
-          Easier access, no hardware barriers, lower development complexity, and stronger potential for social sharing and virality aligned well with the project's goals.
+          Easier access, no hardware barriers, lower development complexity, and stronger potential for social sharing and virality aligned well with the project&apos;s goals.
         </p>
       </div>
     </div>
@@ -144,7 +144,7 @@ How can we engage BTS fans and encourage them to use and share the RM art filter
   <section className="mb-10">
     <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">Platform Decision</h3>
     <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-      We also debated between launching the filter on Instagram or TikTok. Here's a breakdown:
+      We also debated between launching the filter on Instagram or TikTok. Here&apos;s a breakdown:
     </p>
 
     {/* Instagram vs TikTok Comparison */}
@@ -152,13 +152,13 @@ How can we engage BTS fans and encourage them to use and share the RM art filter
       <div className="p-5 border rounded-lg bg-green-200 dark:bg-green-700">
         <h4 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">Instagram (Chosen Platform)</h4>
         <p className="text-lg text-gray-800 dark:text-gray-300">
-          Instagram’s vast user base, particularly among BTS fans, provided the ideal platform for virality. Its visual focus aligned with RM’s interests in art, and Instagram Stories allowed easy sharing of the filter.
+          Instagram&apos;s vast user base, particularly among BTS fans, provided the ideal platform for virality. Its visual focus aligned with RM&apos;s interests in art, and Instagram Stories allowed easy sharing of the filter.
         </p>
       </div>
       <div className="p-5 border rounded-lg bg-gray-200 dark:bg-gray-700">
         <h4 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">TikTok (Alternative)</h4>
         <p className="text-lg text-gray-800 dark:text-gray-300">
-          While TikTok offers more interactive options, its user base and platform dynamics didn’t align as closely with the project’s goals as Instagram did.
+          While TikTok offers more interactive options, its user base and platform dynamics didn&apos;t align as closely with the project&apos;s goals as Instagram did.
         </p>
       </div>
     </div>
@@ -172,11 +172,11 @@ How can we engage BTS fans and encourage them to use and share the RM art filter
 
       {/* Instagram Features Integration */}
       <div className="mb-8">
-        <h3 className="text-2xl font-semibold mb-4">Leveraging Instagram’s Features</h3>
+        <h3 className="text-2xl font-semibold mb-4">Leveraging Instagram&apos;s Features</h3>
         <ul className="space-y-4">
           <li className="p-4 border rounded-lg bg-gray-100 dark:bg-gray-800">
             <strong className="text-lg font-semibold">Visual Integration:</strong>{" "}
-            The filter aligned with RM's passion for art, enhancing Instagram’s visual experience.
+            The filter aligned with RM&apos;s passion for art, enhancing Instagram&apos;s visual experience.
           </li>
           <li className="p-4 border rounded-lg bg-gray-100 dark:bg-gray-800">
             <strong className="text-lg font-semibold">Social Sharing:</strong>{" "}
@@ -184,7 +184,7 @@ How can we engage BTS fans and encourage them to use and share the RM art filter
           </li>
           <li className="p-4 border rounded-lg bg-gray-100 dark:bg-gray-800">
             <strong className="text-lg font-semibold">User Engagement:</strong>{" "}
-            By utilizing Instagram’s tools, the filter maximized interaction and extended its reach.
+            By utilizing Instagram&apos;s tools, the filter maximized interaction and extended its reach.
           </li>
         </ul>
       </div>
@@ -226,7 +226,7 @@ How can we engage BTS fans and encourage them to use and share the RM art filter
           </li>
           <li className="p-4 border rounded-lg bg-red-100 dark:bg-red-800">
             <strong className="text-lg font-semibold">Information Overload:</strong>{" "}
-            Instances where RM’s image covered the entire screen, impacting the user experience.
+            Instances where RM&apos;s image covered the entire screen, impacting the user experience.
           </li>
         </ul>
       </div>
@@ -247,7 +247,7 @@ How can we engage BTS fans and encourage them to use and share the RM art filter
     {/* Improvement Highlights */}
     <ul className="list-disc list-inside text-lg text-gray-700 dark:text-gray-300 mt-4">
       <li>Users adjusting their poses to capture their desired images</li>
-      <li>RM’s image sometimes obscuring too much of the screen</li>
+      <li>RM&apos;s image sometimes obscuring too much of the screen</li>
     </ul>
 
     {/* Testing Images */}
@@ -299,7 +299,7 @@ How can we engage BTS fans and encourage them to use and share the RM art filter
 
   {/* Description Section */}
   <p className="text-xl text-gray-700 dark:text-gray-300 mb-6">
-    "Art With RM" is a distinctive Instagram filter designed to engage BTS fans and foster a deeper appreciation for art. The project aligns with RM’s love for art, offering fans an opportunity to explore and share art, particularly while RM is away serving in the military. We hope this filter helps continue the tradition of "Namjooning" by allowing fans to engage with the art world in creative ways.
+  &quot;Art With RM&quot; is a distinctive Instagram filter designed to engage BTS fans and foster a deeper appreciation for art. The project aligns with RM&apos;s love for art, offering fans an opportunity to explore and share art, particularly while RM is away serving in the military. We hope this filter helps continue the tradition of &quot;Namjooning&quot; by allowing fans to engage with the art world in creative ways.
   </p>
 
   {/* Divider */}
@@ -307,7 +307,7 @@ How can we engage BTS fans and encourage them to use and share the RM art filter
 
   {/* Supporting Message Section */}
   <p className="text-lg text-gray-600 dark:text-gray-400 text-center">
-    Let’s keep the art alive, even when RM is away! Engage with art in ways you never thought possible through the RM filter.
+    Let&apos;s keep the art alive, even when RM is away! Engage with art in ways you never thought possible through the RM filter.
   </p>
 </div>
 <PhotoGrid />
