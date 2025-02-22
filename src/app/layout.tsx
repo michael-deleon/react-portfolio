@@ -11,6 +11,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const metadata = {
+  title: "Michael DeLeon | Product Designer",
+  description: "Portfolio of Michael DeLeon, showcasing product design and development work.",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
