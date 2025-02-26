@@ -2,13 +2,13 @@ import React from 'react';
 
 const PhotoGrid = () => {
   const images = [
-    "/images/art-with-rm/outcome/RM1.jpg",
-    "/images/art-with-rm/outcome/RM2.png",
-    "/images/art-with-rm/outcome/RM3.png",
-    "/images/art-with-rm/outcome/RM4.png",
-    "/images/art-with-rm/outcome/RM5.png",
-    "/images/art-with-rm/outcome/RM6.png",
-    "/images/art-with-rm/outcome/RM7.png",
+    "/images/art-with-rm/Outcome/RM1.jpg",
+    "/images/art-with-rm/Outcome/RM2.png",
+    "/images/art-with-rm/Outcome/RM3.png",
+    "/images/art-with-rm/Outcome/RM4.png",
+    "/images/art-with-rm/Outcome/RM5.png",
+    "/images/art-with-rm/Outcome/RM6.png",
+    "/images/art-with-rm/Outcome/RM7.png",
     "/images/art-with-rm/RM-cartoon.jpg",
     "/images/art-with-rm/RM2.jpg",
   ];
