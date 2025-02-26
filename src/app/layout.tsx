@@ -1,3 +1,6 @@
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css"; // Import FontAwesome styles
+config.autoAddCss = true; 
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
