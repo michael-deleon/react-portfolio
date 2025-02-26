@@ -11,7 +11,7 @@ const projects = [
     link: "/projects/cambio-ventures", // links to cambio ventures
   },
   {
-    image: "/images/art-with-rm/art-with-rm.jpg",
+    image: "/images/art-with-rm/Art-with-rm.jpg",
     title: "The Art with RM Instagram Filter",
     role: "UX/UI Consultant",
     description: "Launched Art with RM Instagram filter, achieving 5,000+ impressions in the first week, boosting engagement by 30%",
@@ -21,7 +21,7 @@ const projects = [
     link: "/projects/art-with-rm", // links to insta filter
   },
   {
-    image: "/images/coinnect/coinnect.jpg",
+    image: "/images/coinnect/Coinnect.jpg",
     title: "Coinnect",
     role: "UX Designer",
     description: "Led a team to design a social finance app to empower graduating high school students to understand financial literacy",
@@ -31,7 +31,7 @@ const projects = [
     link: "/projects/coinnect", // links to coinnect
   },
   {
-    image: "/images/prox/prox.jpg",
+    image: "/images/prox/Prox.jpg",
     title: "Prox",
     role: "UX Consultant",
     description: "Designed a user-centered app to foster local, meaningful connections, enhancing community engagement",
