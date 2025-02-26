@@ -2,7 +2,7 @@ import React from 'react';
 
 const PhotoGrid = () => {
   const images = [
-    "/images/art-with-rm/Outcome/RM1.jpg",
+    "/public/images/art-with-rm/Outcome/RM1.jpg",
     "/images/art-with-rm/Outcome/RM2.png",
     "/images/art-with-rm/Outcome/RM3.png",
     "/images/art-with-rm/Outcome/RM4.png",
