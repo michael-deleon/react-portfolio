@@ -199,7 +199,7 @@ How can we engage BTS fans and encourage them to use and share the RM art filter
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="p-4 border rounded-lg bg-gray-100 dark:bg-gray-800">
             <h4 className="text-lg font-semibold">Sketches by Michael De Leon</h4>
-            <img src="/images/art-with-rm/RM_sketch1.jpg" alt="Sketch by Michael De Leon" className="mt-2 rounded-lg shadow-md"/>
+            <img src="/images/art-with-rm/RM_sketch1.JPG" alt="Sketch by Michael De Leon" className="mt-2 rounded-lg shadow-md"/>
           </div>
           <div className="p-4 border rounded-lg bg-gray-100 dark:bg-gray-800">
             <h4 className="text-lg font-semibold">Sketches by Michael De Leon</h4>
@@ -207,11 +207,11 @@ How can we engage BTS fans and encourage them to use and share the RM art filter
           </div>
           <div className="p-4 border rounded-lg bg-gray-100 dark:bg-gray-800">
             <h4 className="text-lg font-semibold">Sketches by Hongyang Zhou</h4>
-            <img src="/images/art-with-rm/RM_sketch1_HZ.jpg" alt="Sketch by Hongyang Zhou" className="mt-2 rounded-lg shadow-md"/>
+            <img src="/images/art-with-rm/RM_sketch1_HZ.JPG" alt="Sketch by Hongyang Zhou" className="mt-2 rounded-lg shadow-md"/>
           </div>
           <div className="p-4 border rounded-lg bg-gray-100 dark:bg-gray-800">
             <h4 className="text-lg font-semibold">Sketches by Hongyang Zhou</h4>
-            <img src="/images/art-with-rm/RM_sketch2_HZ.jpg" alt="Sketch by Hongyang Zhou" className="mt-2 rounded-lg shadow-md"/>
+            <img src="/images/art-with-rm/RM_sketch2_HZ.JPG" alt="Sketch by Hongyang Zhou" className="mt-2 rounded-lg shadow-md"/>
           </div>
         </div>
       </div>

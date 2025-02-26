@@ -40,7 +40,7 @@ const ProxProject = () => {
       {/* Main Content */}
       <main className="md:w-3/4 w-full p-6">
       <div className="flex flex-col justify-center items-center">
-        <img src="../images/prox/prox.jpg" alt="Prox" className="self-centered w-3/4 rounded-lg h-auto"/>
+        <img src="../images/prox/Prox.jpg" alt="Prox" className="self-centered w-3/4 rounded-lg h-auto"/>
         <br></br>
         <h1 className="text-4xl text-center mb-4">Prox: Break the Ice and Meet new people</h1>
         </div>
