@@ -13,16 +13,16 @@ export default function Footer() {
         <div className="social-icons flex gap-4">
           <a href="mailto:deleonjmike@gmail.com">
             
-            <FontAwesomeIcon icon={faPaperPlane} className="text-gray-500 dark:text-gray-300 hover:text-blue-500" />
+            <FontAwesomeIcon icon={faPaperPlane} className="text-blue-600 dark:text-blue-400 hover:text-blue-800 hover:dark:text-blue-700" />
 
           </a>
           <a href="https://www.linkedin.com/in/michael-joel-de-leon">
             
-            <FontAwesomeIcon icon={faLinkedin} className="text-gray-500 dark:text-gray-300 hover:text-blue-500" />
+            <FontAwesomeIcon icon={faLinkedin} className="text-blue-600 dark:text-blue-400 hover:text-blue-800 hover:dark:text-blue-700" />
           </a>
           <a href="https://github.com/michael-deleon">
             
-            <FontAwesomeIcon icon={faGithub} className="text-gray-500 dark:text-gray-300 hover:text-blue-500" />
+            <FontAwesomeIcon icon={faGithub} className="text-blue-600 dark:text-blue-400 hover:text-blue-800 hover:dark:text-blue-700" />
 
           </a>
         </div>
