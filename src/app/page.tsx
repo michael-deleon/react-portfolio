@@ -22,7 +22,7 @@ export default function Home() {
           <h1 className="text-3xl md:text-5xl font-semibold text-gray-900 dark:text-white leading-normal md:leading-snug">
             Hey! I&apos;m <span className="text-green-600 dark:text-green-400">Mike</span>,  
             a <span className="text-blue-600 dark:text-blue-400">product designer </span><br></br>
-            based in Edison, New Jersey. ✌️
+            based in Sayreville, New Jersey. ✌️
           </h1>
         </div>
           <Work />
