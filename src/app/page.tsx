@@ -19,7 +19,7 @@ export default function Home() {
         
         <Header />
         <div className="header-text md:text-left mt-12 md:mt-10 px-6 md:px-12">
-          <h1 className="text-3xl md:text-5xl font-semibold text-gray-900 dark:text-white leading-normal md:leading-snug">
+          <h1 className="text-3xl md:text-5xl font-semibold text-gray-900 dark:text-white leading-normal md:leading-snug text-center">
             Hey! I&apos;m <span className="text-green-600 dark:text-green-400">Mike</span>,  
             a <span className="text-blue-600 dark:text-blue-400">product designer </span><br></br>
             based in Sayreville, New Jersey. ✌️
