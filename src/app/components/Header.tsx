@@ -57,7 +57,7 @@ const Navbar = () => {
             <div className="hidden md:flex space-x-6">
               <Link href="/about" className="text-gray-900 dark:text-white text-lg hover:text-blue-500 dark:hover:text-blue-500 transition duration-300">About
               </Link>
-              <Link href="/UXDesigner.pdf" target="_blank" className="text-gray-900 dark:text-white text-lg hover:text-blue-500 dark:hover:text-blue-500 transition duration-300">Resume
+              <Link href="/UXDesignerResume.pdf" target="_blank" className="text-gray-900 dark:text-white text-lg hover:text-blue-500 dark:hover:text-blue-500 transition duration-300">Resume
               </Link>
 
               {/* <a href="/about" className="text-gray-900 dark:text-white text-lg hover:text-blue-500 dark:hover:text-blue-500 transition duration-300">About</a> */}
@@ -78,7 +78,7 @@ const Navbar = () => {
           <Link href="/about" className="block">About</Link>
           {/* <a href="/about" className="block">About</a> */}
           {/* <a href="/WebVersion_UXDesigner.pdf" target="_blank" className="block">Resume</a> */}
-          <Link href="/MichaelDeLeon_ProductDesign_Resume.pdf" target="_blank" className="block">Resume</Link>
+          <Link href="/UXDesignerResume.pdf" target="_blank" className="block">Resume</Link>
         </div>
       )}
     </nav>
