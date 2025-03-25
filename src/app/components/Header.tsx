@@ -57,7 +57,7 @@ const Navbar = () => {
             <div className="hidden md:flex space-x-6">
               <Link href="/about" className="text-gray-900 dark:text-white text-lg hover:text-blue-500 dark:hover:text-blue-500 transition duration-300">About
               </Link>
-              <Link href="/WebVersion_UXDesigner.pdf" target="_blank" className="text-gray-900 dark:text-white text-lg hover:text-blue-500 dark:hover:text-blue-500 transition duration-300">Resume
+              <Link href="/UXDesigner.pdf" target="_blank" className="text-gray-900 dark:text-white text-lg hover:text-blue-500 dark:hover:text-blue-500 transition duration-300">Resume
               </Link>
 
               {/* <a href="/about" className="text-gray-900 dark:text-white text-lg hover:text-blue-500 dark:hover:text-blue-500 transition duration-300">About</a> */}
