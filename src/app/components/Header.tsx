@@ -77,7 +77,7 @@ const Navbar = () => {
         <div className="md:hidden bg-white dark:bg-gray-900 text-gray-900 dark:text-white p-4 space-y-4">
           <Link href="/about" className="block">About</Link>
           {/* <a href="/about" className="block">About</a> */}
-          {/* <a href="/MichaelDeLeon_ProductDesign_Resume.pdf" target="_blank" className="block">Resume</a> */}
+          {/* <a href="/WebVersion_UXDesigner.pdf" target="_blank" className="block">Resume</a> */}
           <Link href="/MichaelDeLeon_ProductDesign_Resume.pdf" target="_blank" className="block">Resume</Link>
         </div>
       )}
