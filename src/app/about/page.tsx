@@ -1,7 +1,6 @@
 "use client";
 import Head from "next/head";
 import Header from "../components/Header";
-import Work from "../components/Work";
 import Footer from "../components/Footer";
 import Image from "next/image"; // Use next/image for optimization
 

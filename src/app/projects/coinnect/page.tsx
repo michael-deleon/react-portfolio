@@ -3,7 +3,6 @@ import Head from "next/head";
 import Header from "../../components/Header";
 import BackToTopButton from "../../components/BackToTopButton";
 import Footer from "../../components/Footer";
-import CoinnectDemo from "@/app/components/CoinnectDemo";
 
 
 const ProjectPage = () => {
