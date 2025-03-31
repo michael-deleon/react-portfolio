@@ -4,10 +4,7 @@ interface PlayerCardProps {
   project: {
     image: string;
     title: string;
-    role: string;
     description: string;
-    company: string;
-    stakeholders: string;
     skills: string[];
     link: string;
   };
@@ -43,15 +40,12 @@ const PlayerCard: React.FC<PlayerCardProps> = ({ project }) => {
             <h2 className="text-lg font-bold text-gray-900 dark:text-white">
               {project.title}
             </h2>
-            <p className="text-sm text-gray-500 dark:text-gray-400">{project.role}</p>
             <p className="text-sm text-gray-700 dark:text-gray-300 mt-2">{project.description}</p>
           </div>
           <div className="mt-4">
             <p className="text-xs text-gray-500 dark:text-gray-400">
-              <strong>Company:</strong> {project.company}
             </p>
             <p className="text-xs text-gray-500 dark:text-gray-400">
-              <strong>Stakeholders:</strong> {project.stakeholders}
             </p>
           </div>
         </div>

@@ -65,9 +65,9 @@ const About = () => {
         <div>
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Education</h2>
           <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300">
-            <li>2024: UX Accelerated Program at Beginex</li>
-            <li>2023: B.S in Information Technology from NJIT</li>
-            <li>2020: A.A.S in Computer & Information Systems from Middlesex College</li>
+            <li><strong>2024: </strong></li>UX Accelerated Program at Beginex
+            <li><strong>2023: </strong></li>B.S in Information Technology from NJIT
+            <li><strong>2020: </strong></li>A.A.S in Computer & Information Systems from Middlesex College
           </ul>
         </div>
 
@@ -75,12 +75,12 @@ const About = () => {
         <div>
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Experience</h2>
           <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300">
-            <li>October 2023 - January 2024: UX Designer at Cambio Labs</li>
-            <li>January 2023 - August 2023: Team Lead at NJIT&apos;s Social Interaction Lab</li>
-            <li>January 2023 - May 2023: UX/UI Designer at Coinnect</li>
-            <li>January 2023 - May 2023: UX/UI Designer at Prox</li>
-            <li>June 2022 - August 2022: Internship at New Jersey Orators Inc.</li>
-            <li>September 2019 - April 2020: Internship at Code Ninjas</li>
+            <li><strong>October 2023 - January 2024:</strong></li> UX Designer at Cambio Labs
+            <li><strong>January 2023 - August 2023:</strong></li> Team Lead at NJIT&apos;s Social Interaction Lab
+            <li><strong>January 2023 - May 2023: </strong></li>UX/UI Designer at Coinnect
+            <li><strong>January 2023 - May 2023:</strong></li> UX/UI Designer at Prox
+            <li><strong>June 2022 - August 2022:</strong></li> Internship at New Jersey Orators
+            <li><strong>September 2019 - April 2020:</strong></li> Internship at Code Ninjas
           </ul>
         </div>
 
@@ -88,20 +88,12 @@ const About = () => {
         <div>
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Skills</h2>
           <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300">
-            <li>UI/UX: Designing Web/App Interfaces</li>
-            <li>Web Development: Web App Development</li>
-            <li>App Development: Building Android Applications</li>
+            <li><strong>UI/UX:</strong></li> Designing Web/App Interfaces
+            <li><strong>Web Development:</strong></li> Web App Development
+            <li><strong>App Development: </strong></li> Building Android Applications
           </ul>
         </div>
       </div>
-
-      {/* Work Section */}
-      <div className="header-text md:text-left mt-12 md:mt-10 px-6 md:px-12">
-        <h1 className="text-3xl md:text-5xl font-semibold text-gray-900 dark:text-white leading-normal md:leading-snug">
-          My Work:
-        </h1>
-      </div>
-      <Work />
       <Footer />
     </>
   );

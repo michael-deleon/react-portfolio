@@ -4,11 +4,15 @@ import Header from "../../components/Header";
 import BackToTopButton from '../../components/BackToTopButton';
 import DemoButtons from "@/app/components/DemoButtons";
 import Footer from "../../components/Footer";
+import ProtectedPage from "../../components/ProtectedPage";
+
 
 
 const ProjectPage = () => {
   return (
+    
     <>
+    <ProtectedPage>
     <Head>
       <title>Cambio Ventures</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -391,6 +395,8 @@ const ProjectPage = () => {
     </div>
     <BackToTopButton />
     <Footer />
+    
+    </ProtectedPage>
     </>
   );
 };

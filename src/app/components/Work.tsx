@@ -3,40 +3,28 @@ const projects = [
   {
     image: "/images/cambio-ventures/investor Dashboard.jpg",
     title: "Cambio Ventures",
-    role: "Lead UX Designer",
     description: "Developed and maintained shared UI components for design consistency across platforms, improving design system efficiency",
-    company: "Cambio Labs",
-    stakeholders: "Founders, Investors, Entrepreneurs",
     skills: ["User Research", "Stakeholder Communication", "Wireframing", "Prototyping", "Usability Testing"],
     link: "/projects/cambio-ventures", // links to cambio ventures
   },
   {
     image: "/images/art-with-rm/Art-with-rm.jpg",
     title: "The Art with RM Instagram Filter",
-    role: "UX/UI Consultant",
     description: "Launched Art with RM Instagram filter, achieving 5,000+ impressions in the first week, boosting engagement by 30%",
-    company: "The Social Interaction Lab",
-    stakeholders: "Founder, End users",
     skills: ["User Research", "Competitive Analysis", "Wireframing", "Prototyping", "Behavior Analysis", "Usability Testing"],
     link: "/projects/art-with-rm", // links to insta filter
   },
   {
     image: "/images/coinnect/Coinnect.jpg",
     title: "Coinnect",
-    role: "UX Designer",
     description: "Led a team to design a social finance app to empower graduating high school students to understand financial literacy",
-    company: "Coinnect - a personal passion project",
-    stakeholders: "Team members, End users",
     skills: ["User Research", "Competitive Analysis", "Wireframing", "Prototyping", "Personas", "Team Collaboration"],
     link: "/projects/coinnect", // links to coinnect
   },
   {
     image: "/images/prox/Prox.jpg",
     title: "Prox",
-    role: "UX Consultant",
     description: "Designed a user-centered app to foster local, meaningful connections, enhancing community engagement",
-    company: "Prox - a student startup company",
-    stakeholders: "Founders, Investors, Entrepreneurs",
     skills: ["User Research", "Competitive Analysis", "Wireframing", "Prototyping", "Product Strategy", "Team Collaboration"],
     link: "/projects/prox", // links to prox
   },

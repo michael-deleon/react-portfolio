@@ -57,6 +57,7 @@ const Navbar = () => {
             <div className="hidden md:flex space-x-6">
               <Link href="/about" className="text-gray-900 dark:text-white text-lg hover:text-blue-500 dark:hover:text-blue-500 transition duration-300">About
               </Link>
+              <Link href ="/work" className="text-gray-900 dark:text-white text-lg hover:text-blue-500 dark:hover:text-blue-500 transition duration-300">Work</Link>
               <Link href="/UXDesignerResume.pdf" target="_blank" className="text-gray-900 dark:text-white text-lg hover:text-blue-500 dark:hover:text-blue-500 transition duration-300">Resume
               </Link>
 
@@ -76,7 +77,8 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-white dark:bg-gray-900 text-gray-900 dark:text-white p-4 space-y-4">
           <Link href="/about" className="block">About</Link>
-          {/* <a href="/about" className="block">About</a> */}
+          <Link href ="/work" className="block">Work</Link>
+            {/* <a href="/about" className="block">About</a> */}
           {/* <a href="/WebVersion_UXDesigner.pdf" target="_blank" className="block">Resume</a> */}
           <Link href="/UXDesignerResume.pdf" target="_blank" className="block">Resume</Link>
         </div>
