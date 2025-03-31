@@ -3,8 +3,6 @@ export async function POST(req: Request) {
   
     const { password } = await req.json();
     console.log("Received Password:", password);
-    
-    console.log("Server Password:", process.env.PASSWORD); // Debugging
   
     if (password === process.env.PASSWORD) {
       return Response.json({ success: true });
