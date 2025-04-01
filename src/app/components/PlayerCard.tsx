@@ -17,7 +17,6 @@ const PlayerCard: React.FC<PlayerCardProps> = ({ project }) => {
         {/* Left Side - Project Image */}
        
         <div className="relative w-full md:w-2/3">
-        <div className="absolute inset-0 bg-black opacity-15"></div>
           <img
             src={project.image}
             alt={project.title}
@@ -28,7 +27,7 @@ const PlayerCard: React.FC<PlayerCardProps> = ({ project }) => {
             {project.skills.map((skill, index) => (
               <span
                 key={index}
-                className="bg-blue-600 text-white text-xs font-semibold px-2 py-1 rounded-lg"
+                className="bg-blue-600 text-white text-xs font-semibold px-2 py-1 rounded-lg border border-black"
               >
                 {skill}
               </span>
