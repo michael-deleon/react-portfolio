@@ -1,4 +1,4 @@
-"use client";
+'use client'; // Ensures this runs on the client side
 
 import { useState, ReactNode } from "react";
 
@@ -9,27 +9,16 @@ interface ProtectedPageProps {
 export default function ProtectedPage({ children }: ProtectedPageProps) {
   const [enteredPassword, setEnteredPassword] = useState("");
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  // Load password from environment variable
+  const correctPassword = process.env.NEXT_PUBLIC_PASSWORD; 
+
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setLoading(true);
-    setError("");
-
-    const response = await fetch("/api/authenticate", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ password: enteredPassword }),
-    });
-
-    const data = await response.json();
-    setLoading(false);
-
-    if (data.success) {
+    if (enteredPassword === correctPassword) {
       setIsAuthenticated(true);
     } else {
-      setError("Incorrect password. Please try again.");
+      alert("Incorrect password. Please try again.");
     }
   };
 
@@ -49,12 +38,10 @@ export default function ProtectedPage({ children }: ProtectedPageProps) {
             <button
               type="submit"
               className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600"
-              disabled={loading}
             >
-              {loading ? "Verifying..." : "Submit"}
+              Submit
             </button>
           </form>
-          {error && <p className="text-red-500 mt-2">{error}</p>}
         </div>
       </div>
     );
