@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Header from "../../components/Header";
 import BackToTopButton from "../../components/BackToTopButton";
+import CoinnectDemo from "@/app/components/CoinnectDemo";
 import Footer from "../../components/Footer";
 
 
@@ -44,17 +45,12 @@ const ProjectPage = () => {
         <h1 className="text-4xl text-center">Coinnect</h1>
         <p  className="mt-4 text-center">Helping young adults take control of their finances through smart, social, and intuitive money management.
         </p>
+          <CoinnectDemo />
+        </div>
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 mt-8">
-      {/* Live Prototype Button */}
-      <a
-        href="https://www.figma.com/proto/aLoMX5z4AQrpOKsjMo4Meg/Social-Finance-App?node-id=18-66&t=Ctu6HnK0cUpst3TG-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3&show-proto-sidebar=1"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="w-full md:w-1/2 text-center bg-green-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-green-700 transition duration-300"
-      >
-        Live
-      </a>
-      </div>
+      
+        
+     
         </div>
         {/* Sections */}
         <div id="overview" className="max-w-3xl mx-auto p-6 bg-white dark:bg-gray-900 shadow-lg rounded-lg mt-12">

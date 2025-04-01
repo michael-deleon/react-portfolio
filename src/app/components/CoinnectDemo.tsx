@@ -5,7 +5,7 @@ const CoinnectDemo = () => {
     <div className="flex flex-col md:flex-row items-center justify-center gap-6 mt-8">
       {/* Live Prototype Button */}
       <a
-        href="https://www.figma.com/proto/c7UuBSTiEWP4VZlIWbHXMv/Cambio-Ventures-UI?node-id=1419-15581&node-type=frame&t=CYNi3woPVcmRlQ3x-1&scaling=scale-down&content-scaling=fixed&page-id=1417%3A3944&starting-point-node-id=1417%3A3945YOUR_PROTOTYPE_LINK"
+        href="https://www.figma.com/proto/aLoMX5z4AQrpOKsjMo4Meg/Social-Finance-App?node-id=18-66&t=Ctu6HnK0cUpst3TG-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3&show-proto-sidebar=1"
         target="_blank"
         rel="noopener noreferrer"
         className="w-full md:w-1/2 text-center bg-green-600 text-white py-3 px-6 font-semibold rounded-lg hover:bg-green-700 transition duration-300"
@@ -18,9 +18,10 @@ const CoinnectDemo = () => {
         <video
           className="rounded-xl w-full max-w-md"
           controls
-          poster="/images/cambio-ventures/investor Dashboard.jpg" // Optional preview image
+          poster="/images/coinnect/Coinnect.jpg" // Optional preview image
+
         >
-          <source src="/videos/CambioVenturesWalkthrough.mp4" type="video/mp4" />
+          <source src="/videos/Coinnect Walkthrough.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
