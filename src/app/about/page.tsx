@@ -6,6 +6,7 @@ import Image from "next/image"; // Use next/image for optimization
 
 const About = () => {
   return (
+
     <>
       <Head>
         <title>About</title>
@@ -15,6 +16,7 @@ const About = () => {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         />
       </Head>
+      
       <Header />
 
       {/* About Section (Image + About Me Text) */}
@@ -42,16 +44,16 @@ const About = () => {
           </p>
 
           <p className="text-gray-700 dark:text-gray-300 mt-4 leading-relaxed">
-            As a designer, I&apos;m passionate about <span className="font-semibold text-green-600 dark:text-green-400">creating work that makes a meaningful impact</span>, 
+            As a designer, I&apos;m passionate about creating work that makes a meaningful impact, 
             aiming to simplify and enhance the lives of others. While my background is rooted in programming, my primary focus is on 
-            <span className="font-semibold text-green-600 dark:text-green-400"> user experience design</span>.
+           user experience design.
           </p>
 
           <p className="text-gray-700 dark:text-gray-300 mt-4 leading-relaxed">
-            In my free time, you can find me <span className="italic">traveling</span>, curating 
-            <span className="font-semibold text-purple-600 dark:text-purple-400"> Spotify playlists</span>, or 
-            <span className="font-semibold text-red-600 dark:text-red-400"> binge-watching Netflix</span>. Above all, I enjoy 
-            <span className="font-semibold text-orange-600 dark:text-orange-400"> meeting new people</span> and learning their stories, 
+            In my free time, you can find me traveling, curating 
+           Spotify playlists, or 
+            binge-watching Netflix. Above all, I enjoy 
+           meeting new people and learning their stories, 
             so feel free to reach out to me about anything!
           </p>
         </div>
